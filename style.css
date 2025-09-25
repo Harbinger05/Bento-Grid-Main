@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    padding: 1rem;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.eight {
+    border-radius: 10px;
+    box-shadow: 0 0 12px hsl(0, 3%, 79%);
+}
+
+.one {
+    background-color: hsl(31, 66%, 93%);
+    padding: 1.3rem;
+}
+
+.one h1 {
+    font-weight: 600;
+    max-width: 305px;
+    font-size: 1.8rem;
+    padding-bottom: 1rem;
+}
+
+.one h1 span {
+    color: hsl(256, 67%, 59%);
+    font-style: italic;
+}
+
+.one img {
+    width: 100%;
+    max-width: 200px;
+}
+
+.two {
+    background-color: hsl(256, 67%, 59%);
+    text-align: center;
+    grid-row-start: 1;
+    padding: 1rem;
+}
+
+.two h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 2rem;
+    max-width: 195px;
+    margin: auto;
+    padding-bottom: 1rem;
+}
+
+.two span {
+    color: hsl(39, 100%, 71%);
+}
+
+.two img {
+    width: 100%;
+    max-width: 166px;
+}
+
+.two p {
+    color: hsl(254, 88%, 90%);
+    font-weight: 400;
+}
+
+.three {
+    background-color: hsl(254, 88%, 90%);
+    text-align: center;
+    padding: 1.3rem 0;
+    grid-row-start: 4;
+}
+
+.three h1 {
+    font-size: 1.5rem;
+    max-width: 300px;
+    margin: auto;
+    padding-bottom: 1rem;
+}
+
+.three p {
+    font-size: 1.2rem;
+    max-width: 280px;
+    margin: auto;
+}
+
+.three img {
+    width: 100%;
+    max-width: 300px;
+    padding-bottom: 1rem;
+}
+
+.four {
+    background-color: hsl(39, 100%, 71%);
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+.four h1 {
+    font-size: 1.8rem;
+    max-width: 255px;
+}
+
+.four img {
+    width: 100%;
+    max-width: 222px;
+}
+
+.five {
+    grid-row-start: 2;
+    background-color: white;
+    padding: 1rem;
+}
+
+.five h1 {
+    font-size: 1.5rem;
+    max-width: 328px;
+}
+
+.five img {
+    width: 100%;
+    max-width: 300px;
+}
+
+.six {
+    background-color: hsl(39, 100%, 71%);
+    padding-top: 1rem;
+    padding-left: 1rem;
+    grid-row-start: 3;
+    overflow: hidden;
+}
+
+.six h1 {
+    max-width: 245px;
+}
+
+.six img {
+    width: 100%;
+    max-width: 200px;
+    position: relative;
+    top: 20px;
+}
+
+.seven{
+    background-color: white;
+    padding: 1rem;
+    grid-row-start: 6;
+}
+
+.seven h1 {
+    font-size: 3rem;
+}
+
+.seven p{
+    font-weight: 400;
+    color: hsl(0, 0%, 7%);
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.seven img{
+    width: 100%;
+    max-width: 175px;
+}
+
+.eight {
+    background-color: hsl(256, 67%, 59%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 1.3rem 0;
+    grid-row-start: 5;
+}
+
+.eight h1 {
+    font-size: 1.6rem;
+    max-width: 219px;
+    color: white;
+    line-height: 1;
+    padding-top: 2rem;
+}
+
+.eight img {
+    width: 100%;
+    max-width: 230px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 1200px;
+    gap: 2rem;
+}
